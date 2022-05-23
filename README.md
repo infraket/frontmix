@@ -1,1 +1,1 @@
-infraket.github.io/mems/cssMemSlider/index.html
+[mems](infraket.github.io/mems/cssMemSlider/index.html)
