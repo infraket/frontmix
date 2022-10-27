@@ -3,4 +3,4 @@
 
 ### [ToDo](https://infraket.github.io/frontmix/ToDo/ "todo")
 
-### [passwordGen](https://infraket.github.io/frontmix/passwordGen/ "gen")
+### [passwordGen](https://infraket.github.io/frontmix/passwordGen/ "generate")
