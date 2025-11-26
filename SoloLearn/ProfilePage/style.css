@@ -1,5 +1,6 @@
 body {
     background-color: darkslategray;
+    
 
 }
 
@@ -11,8 +12,10 @@ h2,  p {
 #streak {
     
     color: white;
+    padding-top: 10px;
    
 }
+
 img{
  border: thin dotted #FFFFFF;
 }
@@ -20,20 +23,29 @@ img{
     text-align: center;
     color: #FFFFFF;
 }
+#profile li {
+    display: inline;
+    margin: 15px;
+
+}
 ul {
     list-style-type: disc;
     list-style-position: inside;
+
 }
 
 #streak p {
     color: #676767 ;
+    display: inline;
+    margin: 10px;
 }
 #streak ul{
  
- background-color: #FFFFFF;
+ /* background-color: #FFFFFF; */
  border-radius: 5px;
-
-
+ display: inline;
+ margin: 5px;
+ padding: 5px;
 
 }
 
