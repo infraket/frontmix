@@ -28,6 +28,14 @@ img{
     margin: 15px;
 
 }
+#profile img {
+    transition: transform 3s;
+}
+
+#profile img:hover {
+    transform: scale(0.7);
+
+}
 ul {
     list-style-type: disc;
     list-style-position: inside;
