@@ -18,6 +18,14 @@ h2,  p {
 
 img{
  border: thin dotted #FFFFFF;
+ animation-name: borderChange;
+animation-duration: 10s;
+}
+
+@keyframes borderChange {
+    0% {border: thin dotted #FFFFFF;}
+    50% {border:  thin dotted orange;}
+    100% {border: thin dotted #FFFFFF;}
 }
 #profile {
     text-align: center;
@@ -63,4 +71,25 @@ ul {
 
 .inactive-day {
     color: #CCCCCC;
+}
+
+
+.spinner {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: 8px solid #7F622F;
+  border-radius: 50%;  
+  border-top: 8px solid #FB9C02;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
 }
